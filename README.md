@@ -19,13 +19,13 @@ Para configurar o projeto em sua máquina, siga o passo a passo abaixo:
 Clone via SSH:
 
 ```
-git clone git@github.com:asolivs/desafio.git
+git clone git@github.com:asolivs/desafio-imobiliario.git
 ```
 
 Clone via HTTPS:
 
 ```
-git clone https://github.com/asolivs/desafio.git
+git clone https://github.com/asolivs/desafio-imobiliario.git
 ```
 
 ## Instalando as dependências

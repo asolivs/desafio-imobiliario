@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  desafio:
+    container_name: desafio
+    build:
+      context: .
+      args:
+        project: desafio
+      dockerfile: Dockerfile
+    ports:
+      - '9799:3000'
+    volumes:
+      - .:/opt/desafio/desafio
+      - /opt/desafio/desafio/node_modules
+    command: npm run start
+    env_file:
+      - .env
+
+networks: 
+  desafio-compose-network:
+    driver: bridge
